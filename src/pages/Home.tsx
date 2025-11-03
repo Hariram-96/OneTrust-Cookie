@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import '../App.css'
 // Import mock OneTrust for development (remove when using real OneTrust)
 import '../utils/mockOneTrust'
@@ -158,6 +159,7 @@ export default function Home() {
           <div className="nav-links">
             <a href="#features">Features</a>
             <a href="#about">About</a>
+            <Link to="/privacy-policy">Privacy Policy</Link>
             <button className="cookie-settings-btn" onClick={openOneTrustPanel}>
               Cookie Settings
             </button>
