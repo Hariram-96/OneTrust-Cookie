@@ -266,7 +266,8 @@ export default function Home() {
               <p>
                 We use cookies and similar technologies to enhance your browsing experience, 
                 analyze site traffic, and provide personalized content. You can manage your 
-                cookie preferences at any time.
+                cookie preferences at any time. See our{' '}
+                <Link to="/privacy-policy">Privacy Policy</Link>.
               </p>
             </div>
             <div className="cookie-banner-buttons">
