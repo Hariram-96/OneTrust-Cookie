@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OneTrust Cookie Management Demo</title>
+    
+    <!-- OneTrust Cookies Consent Notice start for onetrust-demo.com -->
+    <script type="text/javascript" src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" charset="UTF-8" data-domain-script="your-domain-script-id-here" ></script>
+    <script type="text/javascript">
+      function OptanonWrapper() {
+        // OneTrust callback function that runs after the banner script has loaded
+        console.log('OneTrust loaded');
+      }
+    </script>
+    <!-- OneTrust Cookies Consent Notice end for onetrust-demo.com -->
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
